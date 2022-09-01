@@ -1,7 +1,7 @@
 const Unidad1 = () => {
     return (
         <div>
-            <p>Unidad 1</p>
+            <h1>Unidad 1</h1>
         </div>
     )
 }
