@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
 $light: #ffffff;
 $gray: #c4ccde;
 
@@ -5,6 +7,15 @@ $gray: #c4ccde;
   margin: 0;
   padding: 0;
 }
+
+.flex{
+  display: flex;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
 .App{
   color: red;
 }
@@ -13,4 +24,21 @@ $gray: #c4ccde;
   background-color: $light;
   padding: 1rem 2rem;
   border-bottom: 1px solid $gray;
+}
+
+.sidebar {
+  width: 14rem;
+  height: calc(100vh - 52px );
+  border-right: 1px solid $gray;
+  ul{
+    list-style: none;
+    padding: 1rem 2rem;
+    li{
+      margin-bottom: 1rem;
+      a{
+        text-decoration: none;
+      }
+      
+    }
+  }
 }
