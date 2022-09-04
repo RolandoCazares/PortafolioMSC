@@ -1,0 +1,23 @@
+.home {
+  display: block;
+}
+
+.image {
+  display: block;
+  width: 45vw;
+  max-width: 50%;
+  margin: 5vw auto;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.content {
+  padding-left: var(--content-padding-left);
+    background-color: var(--second-bg);
+    min-height: 100vh;
+    padding-top: 50px;
+}
