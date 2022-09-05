@@ -4,6 +4,8 @@ import styles from "./Login.module.css";
 import { makeStyles } from "@mui/styles";
 import { Link } from "react-router-dom"
 import fondo from "../../assets/images/ingenieria-sistemascomputacionales.jpg"
+import Candado from "../../assets/images/giphy.gif"
+import { useNavigate } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,16 +17,26 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
 function Login() {
   const classes = useStyles();
+
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/home`; 
+    navigate(path);
+  }
+  
   return (
     <>
      <div className={classes.root}>
       <div className={styles.container}>
-        <label>
-        Welcome to Rolando Cazares's portfolio
-        </label>
-        <h6>On this site you can see rolando's jobs and tasks. please log in.</h6>
+        <div className={styles.welcome}>
+        This is Rolando Cazares's portfolio
+        </div>
+        <h6 className={styles.message}>On this site you can see rolando's jobs and tasks. Please log in.</h6>
+        <img src={Candado} className={styles.candado}/>
         <label htmlFor="uname">
           <b>Username</b>
         </label>
@@ -47,6 +59,14 @@ function Login() {
           required
           /* ref={passwordRef} */
         />
+        <button
+          className={styles.login}
+          onClick= {
+            routeChange
+          }
+        >
+          Login
+        </button>
       </div>
     </div>
     </>

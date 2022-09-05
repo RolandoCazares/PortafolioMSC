@@ -8,6 +8,7 @@
   margin: 0 auto;
   font-style: Arial;
   background-color: white;
+  border-radius: 15px;
 }
 
 .input {
@@ -37,4 +38,24 @@
 .login:hover {
   color: #ffffff;
   background-color: #006570;
+}
+
+.welcome{
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5%;
+  opacity: null;
+}
+
+.message{
+  text-align: center;
+}
+
+.candado{
+  padding: 5%;
+  height: 65%;
+  width: 65%;
+  display:block;
+  margin:auto;
 }
