@@ -29,22 +29,26 @@ function NavbarNav(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/home/unidad1/">Components</NavLink>
+              <NavLink href="/home/">Inicio</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/RolandoCazares">
                 GitHub
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="https://itnogales.mindbox.app/login/alumno">
+                MindBox
+              </NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                CONACYT
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem>MIIC</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+                <DropdownItem>CVU</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
