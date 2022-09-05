@@ -1,19 +1,16 @@
-import { useContext } from "react";
-import { Outlet } from "react-router-dom";
 import styles from "./Home.module.css";
-import { Navigate } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import TopNav from "./Navbar";
+import ImgWelcome from "../../assets/images/welcome.jpg"
 
 function Home({ page }) {
   //console.log(page);
   return (
     <>
       <div className={styles.home}>
-        <Sidebar />
         <TopNav />
-        <div className={styles.content}>{page}</div>
-        <Outlet />
+        <Sidebar/>
+        <img src={ImgWelcome} alt='imagen de bienvenida' width="100%" height="100%"/>
       </div>
     </>
   );
