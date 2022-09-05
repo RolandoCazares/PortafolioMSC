@@ -19,17 +19,34 @@ function Login() {
   const classes = useStyles();
   return (
     <>
-    <li>
-      <Link to="/"></Link>
-    </li> 
      <div className={classes.root}>
       <div className={styles.container}>
+        <label>
+        Welcome to Rolando Cazares's portfolio
+        </label>
+        <h6>On this site you can see rolando's jobs and tasks. please log in.</h6>
         <label htmlFor="uname">
           <b>Username</b>
         </label>
+        <input
+          className={styles.input}
+          type="text"
+          placeholder="Enter Username"
+          name="uname"
+          required
+          /* ref={usernameRef} */
+        />
         <label htmlFor="psw">
           <b>Password</b>
         </label>
+        <input
+          className={styles.input}
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+          /* ref={passwordRef} */
+        />
       </div>
     </div>
     </>
