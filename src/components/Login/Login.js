@@ -1,5 +1,6 @@
 import styles from "./Login.module.css";
-import { makeStyles } from "@mui/styles";import fondo from "../../assets/images/ingenieria-sistemascomputacionales.jpg"
+import { makeStyles } from "@mui/styles";
+import fondo from "../../assets/images/ingenieria-sistemascomputacionales.jpg"
 import Candado from "../../assets/images/giphy.gif"
 import { useNavigate } from "react-router-dom";
 
@@ -10,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
+    position: "relative",
   },
 }));
 
