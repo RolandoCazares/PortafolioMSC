@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import styles from './Home.module.css';
 import {
   Collapse,
   Navbar,
@@ -21,7 +22,7 @@ function NavbarNav(args) {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className={styles.navbar}>
       <Navbar color="light" fixed="top" light expand={true} {...args}>
         <NavbarBrand href="/">Matematicas discretas</NavbarBrand>
         <NavbarToggler onClick={toggle} />

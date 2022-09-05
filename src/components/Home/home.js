@@ -9,10 +9,12 @@ function Home({ page }) {
   //console.log(page);
   return (
     <>
-      <Sidebar />
-      <TopNav />
-      <div className={styles.content}>{page}</div>
-      <Outlet />
+      <div className={styles.home}>
+        <Sidebar />
+        <TopNav />
+        <div className={styles.content}>{page}</div>
+        <Outlet />
+      </div>
     </>
   );
 }

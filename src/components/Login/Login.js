@@ -29,7 +29,7 @@ function Login() {
           let x = document.form.uname.value;
           let y = document.form.psw.value;
           if(usuario === x && contrasena === y){
-            let path = `/home`; 
+            let path = `/home/unidad1`; 
             navigate(path);
           }
           else{

@@ -14,15 +14,6 @@ function HomeInit({ page }) {
     <>
       <div>{page}</div>
       <Outlet />
-      
-      <button
-          className="botonExit"
-          onClick= {
-            routeChange
-          }
-        >
-          click here to see the portfolio
-        </button>
     </>
   );
 }
