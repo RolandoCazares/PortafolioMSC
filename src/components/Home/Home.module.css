@@ -17,12 +17,74 @@
 
 .content {
   padding-left: var(--content-padding-left);
-    background-color: var(--second-bg);
-    min-height: 100vh;
+    background-color: #fafafb;
+    min-height: 10vh;
     padding-top: 50px;
-    position: sticky;
+    width: 89%;
+    max-height: 1vh;
+
 }
 
 .home{
   display: flex;
+}
+
+.botonU1{
+  background-color: #349eff;
+  padding: 0.5rem 0.23rem;
+  border-radius: 10px;
+  width: calc(100% - 3rem);
+  transition: all 0.1s ease-out;
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  transition: color 0.3s ease 0s;
+  color: #fff;
+  width: 100%;
+  font-size: calc(2vh);
+  text-transform: capitalize;
+}
+
+.botonUvacio{
+  padding: 0.5rem 0.23rem;
+  border-radius: 10px;
+  width: calc(100% - 3rem);
+  transition: all 0.1s ease-out;
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  transition: color 0.3s ease 0s;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: calc(2vh);
+  text-transform: capitalize;
+}
+
+.padding{
+  margin-top: 10%;
+}
+
+.imagen{
+  margin-top: 2%;
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+}
+
+.mensaje{
+  margin-top: 2%;
+  font-size: 100%;
+  padding: 7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mensaje1{
+  margin-top: 15%;
+  font-size: 100%;
+  padding: 7px;
+  text-align: center;
+  font-weight: bold;
 }

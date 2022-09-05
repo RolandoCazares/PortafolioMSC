@@ -1,19 +1,14 @@
-import { Outlet } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import styles from './HomeInit.module.css';
 
-function HomeInit({ page }) { 
+function HomeInit() { 
   //console.log(page);
-
-  let navigate = useNavigate(); 
-  const routeChange = () =>{ 
-    let path = `/home/unidad1`; 
-    navigate(path);
-  } 
 
   return (
     <>
-      <div>{page}</div>
-      <Outlet />
+      <div  className={styles.ordenador}>
+      </div>
+
     </>
   );
 }
