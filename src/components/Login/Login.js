@@ -3,6 +3,9 @@ import { makeStyles } from "@mui/styles";
 import fondo from "../../assets/images/ingenieria-sistemascomputacionales.jpg"
 import Candado from "../../assets/images/giphy.gif"
 import { useNavigate } from "react-router-dom";
+import About from "./Animation/About";
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,6 +43,9 @@ function Login() {
   return (
     <>
      <div className={classes.root}>
+     <div className={styles.Pagedisplaysection}>
+        <About />
+      </div>
       <div className={styles.container}>
         <div className={styles.welcome}>
         This is Rolando Cazares's portfolio
