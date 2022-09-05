@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import {
   Collapse,
@@ -21,7 +22,7 @@ function NavbarNav(args) {
 
   return (
     <div>
-      <Navbar {...args}>
+      <Navbar color="light" fixed="top" light expand={true} {...args}>
         <NavbarBrand href="/">Matematicas discretas</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
