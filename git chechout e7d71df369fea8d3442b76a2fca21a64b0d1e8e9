@@ -1,0 +1,131 @@
+[33mcommit 1ee3cce2e1c1757578aa28b66e0fb342d1b9f855[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 23:22:32 2022 -0700
+
+    el login quedo bonito
+
+[33mcommit c1fd9a0999b1cc16f2933ac41b28ef8d986a4477[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 15:54:10 2022 -0700
+
+    Nuevas clases de animaciones
+
+[33mcommit c468280f4dbd91fd7a84b23185560b75d0961f89[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 15:53:47 2022 -0700
+
+    Estilos de animacion de login
+
+[33mcommit 9a2cfbfc42dd884b888885b81154e1994b054b8c[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 15:53:22 2022 -0700
+
+    Se agrego class about para animacion de login
+
+[33mcommit aceb0a3dd7e41e84c333ef06b61631d030006005[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 12:17:04 2022 -0700
+
+    se corrigio barra con padding de mas
+
+[33mcommit e7d71df369fea8d3442b76a2fca21a64b0d1e8e9[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 12:16:17 2022 -0700
+
+    ajustes de rutas
+
+[33mcommit 7355eb982e8b7ee3a5f1e07e632bb648375d4c04[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Mon Sep 5 00:59:17 2022 -0700
+
+    ya no pude
+
+[33mcommit c153dcf4237e96ee26927b0261a268d85e5ef0c3[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 22:42:37 2022 -0700
+
+    no se pero esta bien
+
+[33mcommit d2887e4d5af26cc26e54ee039e1c733792650be5[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 22:42:22 2022 -0700
+
+    ajsutes de estilos de sidebar y topvab
+
+[33mcommit 12268e44da551eebc888bcefc9cd8bcd420f2ce2[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 22:42:00 2022 -0700
+
+    se borro algo incecesario
+
+[33mcommit 7643f414ee2b011d622409443f7c161bef07f835[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 21:29:28 2022 -0700
+
+    ya no se
+
+[33mcommit f399abb195a3698f5ff4662c472818f7e0845e3e[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 20:17:10 2022 -0700
+
+    validacion
+
+[33mcommit 4722984fc6e17d60d79ac2dc76125ee0c27b9c12[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 17:53:02 2022 -0700
+
+    Se aplico formato y estilos a login
+
+[33mcommit 15764452653e7003d4f3c260d72e0aada809395c[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 17:52:42 2022 -0700
+
+    se añadio gif de login
+
+[33mcommit 5595762da75ee5526e2a06d933d12f4d86b7f847[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 17:01:03 2022 -0700
+
+    mensaje en login
+
+[33mcommit fa0bd8cafcf36be73a9891f667234643df9c079e[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 17:00:23 2022 -0700
+
+    ya se puede hacer cambios de pagina
+
+[33mcommit a761ee62797eee58d81e46f6c7df779ca0e58c55[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 14:18:00 2022 -0700
+
+    estilos de login
+
+[33mcommit 3e88ac3cbfd2c41ae9daae185ddc6f9ede43b233[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 14:17:51 2022 -0700
+
+    se agrego home
+
+[33mcommit 8c02a70656066d7703518107dafe88b90f8b2d9b[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 14:17:23 2022 -0700
+
+    se creo nuevo navbar
+
+[33mcommit 30e003d7b7f7e981bb9f53af81240097d331c1c4[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 14:17:09 2022 -0700
+
+    se crearon nuevos sidebar y login
+
+[33mcommit 98932b45794516e7a7d0f7cabdc23975d26db69d[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 14:16:48 2022 -0700
+
+    estilos de home
+
+[33mcommit b85a4d90cf8df99bcce148a570f4a2aaf4cfe1ad[m
+Author: Huawei Rolando <rolando_99-2011@hotmail.com>
+Date:   Sun Sep 4 14:16:38 2022 -0700
+
+    se agrego home
