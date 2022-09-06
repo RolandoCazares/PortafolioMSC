@@ -4,6 +4,7 @@ import fondo from "../../assets/images/ingenieria-sistemascomputacionales.jpg"
 import Candado from "../../assets/images/giphy.gif"
 import { useNavigate } from "react-router-dom";
 import About from "./Animation/About";
+import { Hidden } from "@mui/material";
 
 
 
@@ -15,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundPosition: "center",
     height: "100vh",
     position: "relative",
-  },
+    overflowX: "hidden",
+    overflowY: "hidden"}
 }));
 
 
@@ -43,18 +45,17 @@ function Login() {
   return (
     <>
      <div className={classes.root}>
-     <div className={styles.Pagedisplaysection}>
-        <About />
-      </div>
-      <div className={styles.container}>
+        <div className={styles.tarjeta}>
+        <div className={styles.container}>
         <div className={styles.welcome}>
         This is Rolando Cazares's portfolio
         </div>
         <h6 className={styles.message}>On this site you can see rolando's jobs and tasks. Please log in.</h6>
         <img src={Candado} className={styles.candado}/>
          {<form name="form" action="INICIO SESION">
-          <label>
-                <b>Username</b>
+          <div>
+          <label >
+                <b className={styles.etiqueta}>Username:</b>
               </label>
               <input
                 className={styles.input}
@@ -62,8 +63,10 @@ function Login() {
                 placeholder="Enter Username"
                 name="uname"
               />
+          </div>
+          
               <label htmlFor="psw">
-                <b>Password</b>
+                <b className={styles.etiqueta}>Password:</b>
               </label>
               <input
                 className={styles.input}
@@ -81,6 +84,11 @@ function Login() {
           Login
         </button>
       </div>
+      
+      </div>
+      <div className={styles.Pagedisplaysection}>
+        <About />
+    </div>
     </div>
     </>
   );

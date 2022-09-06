@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import styled from "styled-components";
 import Typical from "react-typical";
 import { Blob } from "react-blob";
+import styles from '../Login.module.css';
 
 const Division = styled.div`
   color: grey;
@@ -37,29 +38,11 @@ const Division = styled.div`
     text-align: left;
     justify-content: left;
     color: #f9f871;
-    float: left;
+    float: right;
     top: 63%;
   }
 
-  .ContactMe {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    float: left;
-    top: 80%;
-    padding: 0.5rem;
-    margin: 0 1% 0 1%;
-    border: 2px solid yellow;
-    background-color: transparent;
-    color: #f9f871;
-    left: 9%;
-  }
 
-  .ContactMe:hover {
-    background-color: yellow;
-    color: black;
-    font-weight: bold;
-  }
   span {
     display: flex;
     color: white;
@@ -118,6 +101,8 @@ const Division = styled.div`
       background-color: transparent;
       color: #f9f871;
       left: 7%;
+      width: 70px;
+      height: 70%;
     }
 
     .ContactMe:hover {
@@ -142,10 +127,10 @@ const Division = styled.div`
 
 const YellowDesktopStyle = {
   position: "absolute",
-  top: "50%",
+  top: "30%",
   left: "40%",
-  zIndex: "1",
-  backgroundColor: "yellow",
+  zIndex: "2",
+  backgroundColor: "blue",
   color: "white",
   opacity: "0.6",
   fontSize: "50vh"
@@ -154,9 +139,9 @@ const YellowDesktopStyle = {
 const YellowMobileStyle = {
   position: "absolute",
   top: "70%",
-  left: "50%",
-  zIndex: "1",
-  backgroundColor: "yellow",
+  left: "10%",
+  zIndex: "2",
+  backgroundColor: "blue",
   color: "white",
   opacity: "0.6",
   fontSize: "50vh"
@@ -165,9 +150,9 @@ const YellowMobileStyle = {
 const BlackMobileStyle = {
   position: "absolute",
   top: "10%",
-  left: "-50%",
-  zIndex: 2,
-  backgroundColor: "black",
+  left: "100%",
+  zIndex: 1,
+  backgroundColor: "white",
   color: "white",
   opacity: 0.6,
   fontSize: "50vh"
@@ -175,10 +160,10 @@ const BlackMobileStyle = {
 
 const BlackDesktopStyle = {
   position: "absolute",
-  top: "8%",
-  left: "5%",
-  zIndex: 2,
-  backgroundColor: "black",
+  top: "5%",
+  left: "50%",
+  zIndex: 1,
+  backgroundColor: "white",
   color: "white",
   opacity: 0.6,
   fontSize: "50vh"
@@ -222,26 +207,30 @@ class About extends Component {
                 <h1>
 `}
           </pre>
-          <h1>Hi,</h1>
+          <div className={styles.textoAnimation}>
           <br />
-          <h1>I'm Rolando Mota</h1>
-          <Typical
-            steps={[
-              "Developer",
-              4000,
-              "Web Designer",
-              4000,
-            ]}
-            loop={Infinity}
-            wrapper="span"
-          />
+            <h1>   Hi,</h1>
+            <br />
+            <h1>I'm Rolando Cazares.</h1>
+            <Typical
+              steps={[
+                "On this site you can see my job.",
+                4000,
+                "Please log in.",
+                4000,
+              ]}
+              loop={Infinity}
+              wrapper="span"
+            />
+          </div>
+          
           <pre className="postClass">
             {`
                 </h1>
             `}
           </pre>
 
-          <button className="ContactMe">Contact me !</button>
+          <button className={styles.ContactMe}>Contact me !</button>
         </Division>
 
         <Blob
