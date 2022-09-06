@@ -1,6 +1,7 @@
 import styles from "./Home.module.css";
 import Sidebar from "./Sidebar";
 import TopNav from "./Navbar";
+import { Outlet } from "react-router-dom";
 
 function Home({ page }) {
   //console.log(page);
@@ -9,6 +10,8 @@ function Home({ page }) {
       <div className={styles.home}>
         <TopNav />
         <Sidebar/>
+        <div className={styles.content}>{page}</div>
+        <Outlet/>
       </div>
     </>
   );
