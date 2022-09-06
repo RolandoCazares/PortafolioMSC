@@ -15,7 +15,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
-    position: "relative",}
+    position: "relative",
+    overflowX: "hidden",
+    overflowY: "hidden"
+  }
 }));
 
 
