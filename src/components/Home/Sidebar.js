@@ -23,10 +23,70 @@ const Sidebar = () => {
             <img className={styles.imagen} src={compubinario}/>
             <div className={styles.mensaje}>To see my homework you must first choose the unit.</div>
             <ul className={styles.padding}>
-            
-            <li>
-                    <Link to="/home/unidad1">Cerrar sesion</Link>
-                </li>
+            <UncontrolledDropdown nav inNavbar className={styles.botonU1}>
+              <DropdownToggle nav caret>
+              Unit 1
+              </DropdownToggle>
+              <DropdownMenu right>
+                    <DropdownItem>
+                    <Link to="/home/unidad1">Homework 1</Link>
+                    </DropdownItem>
+                <DropdownItem>
+                     <Link to="/home/unidad2">Homework 2</Link>
+                </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar className={styles.botonUvacio}>
+              <DropdownToggle nav caret>
+              Unit 2
+              </DropdownToggle>
+              <DropdownMenu right>
+                    <DropdownItem>
+                        <div>There are no homework in this unit.</div>
+                    </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar className={styles.botonUvacio}>
+              <DropdownToggle nav caret>
+              Unit 3
+              </DropdownToggle>
+              <DropdownMenu right>
+                    <DropdownItem>
+                        <div>There are no homework in this unit.</div>
+                    </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar className={styles.botonUvacio}>
+              <DropdownToggle nav caret>
+              Unit 4
+              </DropdownToggle>
+              <DropdownMenu right>
+                    <DropdownItem>
+                        <div>There are no homework in this unit.</div>
+                    </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar className={styles.botonUvacio}>
+              <DropdownToggle nav caret>
+              Unit 5
+              </DropdownToggle>
+              <DropdownMenu right>
+                    <DropdownItem>
+                        <div>There are no homework in this unit.</div>
+                    </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+
                 <li>
                     <Link to="/">Cerrar sesion</Link>
                 </li>
