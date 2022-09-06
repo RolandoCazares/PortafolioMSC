@@ -20,11 +20,18 @@
     background-color: #fafafb;
     width: 89%;
     max-height: 1vh;
+    display: block;
+    position: relative;
 
 }
 
-.home{
+.homep{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
   display: flex;
+  background: bottom;
+  overflow-x: hidden;
 }
 
 .botonU1{

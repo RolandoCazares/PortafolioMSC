@@ -1,3 +1,22 @@
-.ordenador
-{height: 100px;
-width: 100px;}
+.homeinit {
+    
+    position: relative;
+    height: calc(100vh);
+    width: 100%;
+    margin: -0.3px;
+    display: flex;
+    overflow-y: hidden;
+  }
+
+  .home{
+    height: 100%;
+    margin: 0;
+    background: bottom;
+    
+  }
+
+  .empujar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+  }

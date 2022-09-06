@@ -16,13 +16,13 @@ function App() {
       <Router className="App">
         <Routes>
             <Route path="/" element={<Login/>}/>
-              <Route path="/home" element= {<Home page={<HomeInit/>}/>}>
+              <Route path="/home" element= {<Home page={<HomeInit/>}/>}/>
               <Route path="/home/unidad1" element={<Home page={<Unidad1/>}/>}/>
               <Route path="/home/unidad2" element={<Home page={<Unidad2/>}/>}/>
               <Route path="/home/unidad3" element={<Home page={<Unidad3/>}/>}/>
               <Route path="/home/unidad4" element={<Home page={<Unidad4/>}/>}/>
               <Route path="/home/unidad5" element={<Home page={<Unidad5/>}/>}/>
-              </Route>
+
         </Routes>
       </Router>
   );

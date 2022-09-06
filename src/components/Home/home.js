@@ -7,11 +7,11 @@ function Home({ page }) {
   //console.log(page);
   return (
     <>
-      <div className={styles.home}>
+      <div className={styles.homep}>
         <TopNav />
         <Sidebar/>
-        <div className={styles.content}>{page}</div>
         <Outlet/>
+        <div className={styles.content}>{page}</div>
       </div>
     </>
   );
