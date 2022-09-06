@@ -1,4 +1,51 @@
 .margenes{
-    margin: 70px 0px 0px 230px ;
-    display: flex;
+    padding: 10px;
+    margin: 5% 0px 0px 0% ;
+    font-size: 60px;
+    text-align: center;
 }
+
+.info{
+    text-align: center;
+    font-size: 30px;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.form{
+    margin: 5% auto;
+    padding: 70px;
+    font-size: 30px;
+    width: 65%;
+    background-color: var(--main-bg);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+    border-radius: 50px;
+}
+
+.compere{
+    margin: 2rem;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007c89;
+    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+    padding: 0 18px;
+    opacity: null;
+  }
+
+  .input{
+    font-size: 1rem;
+    border-style: none;
+    box-shadow: 1px 1px 1px rgba(200, 150, 150, 0.12),
+      0px 1px 0px 0px rgba(0, 0, 0, 0.24);
+  }
