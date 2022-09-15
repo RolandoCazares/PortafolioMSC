@@ -1,0 +1,52 @@
+.calculadora {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+
+.title {
+    padding-top: 2%;
+    font-size: 60px;
+    font-weight: bolder;
+    position: relative;
+
+}
+
+.form {
+    margin: 5% auto;
+    font-size: 30px;
+    width: 40%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+    border-radius: 50px;
+    opacity: 0.85;
+}
+
+.contenido {
+    position: relative;
+    width: 40%;
+    text-align: center;
+}
+
+.numero1 {
+    margin-top: 7%;
+    margin-left: 15%;
+    width: 10%;
+    padding: 5px;
+}
+
+.input {
+    font-size: 3rem;
+}
+
+.compere {
+    margin: 5px;
+    padding: 20px;
+}
+
+.divTabla {
+    width: 100%;
+    max-width: 100%;
+}

@@ -32,7 +32,7 @@ const Sidebar = () => {
                     <Link to="/home/unidad1">Homework 1</Link>
                     </DropdownItem>
                 <DropdownItem>
-                     <Link to="/home/unidad2">Homework 2</Link>
+                     <Link to="/home/unidad11">Homework 2</Link>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
